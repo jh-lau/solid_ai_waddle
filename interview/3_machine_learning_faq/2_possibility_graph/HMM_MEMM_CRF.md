@@ -1,2 +1,9 @@
-> [Reference](https://zhuanlan.zhihu.com/p/33397147)
+
+
+
+
+
+
+### References
+> [概率图模型体系：HMM、MEMM、CRF](https://zhuanlan.zhihu.com/p/33397147)
 
