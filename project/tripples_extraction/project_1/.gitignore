@@ -1,0 +1,10 @@
+data/
+test*.py
+__pycache__/
+.idea/
+nohup.*
+*.html
+*.bin
+*.ipynb
+model/
+datas/
