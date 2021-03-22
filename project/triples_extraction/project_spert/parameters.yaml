@@ -1,0 +1,12 @@
+model_path: model/2020-03-23_15:58:23.062070/final_model
+type_path: datas/wenshu_types.json
+
+
+relation_types: 27
+entity_types: 13
+max_span_size: 20
+max_pairs: 1000
+rel_filter_threshold: .4
+prop_drop: .1
+size_embedding: 25
+freeze_transformer: False

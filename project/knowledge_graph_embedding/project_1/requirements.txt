@@ -1,3 +1,0 @@
-dotmap
-torch == 1.4.0
-numpy == 1.16.1
