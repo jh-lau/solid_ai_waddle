@@ -135,4 +135,3 @@ venv.bak/
 
 #Backup files
 *.py.bak
-/benchmarks/
