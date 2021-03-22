@@ -9,3 +9,7 @@
 > - 图学习平台：更high-level的设施，用来进行graph embedding的计算
 - holder
 > holder
+
+
+### References
+> [工业界如何用知识图谱搞事情](https://mp.weixin.qq.com/s/A3fllGoU16hOmVH_SJS0MQ)
