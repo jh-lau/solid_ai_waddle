@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2020/3/5 下午2:03
-  @Project      : tripples_extraction
+  @Project      : triples_extraction
   @FileName     : data_management.py
   @Description  : 标注数据预处理模块
 """
@@ -163,15 +163,15 @@ def generate_random_penalty() -> str:
 
 
 synonym_file_list = {
-    '罪名': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/罪名字典_699.txt',
-    '地点': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/全国地名大全.txt',
-    '组织机构': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/机构名词典.txt',
-    '人物': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/人名词典.txt',
-    '案件身份': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/案件身份.txt',
-    '作案方式': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/作案手段.txt',
-    '行为': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/坦白行为.txt',
-    'Text': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/诉求.txt',
-    'TextResult': '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/实体同义词替换词典/诉求结果.txt',
+    '罪名': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/罪名字典_699.txt',
+    '地点': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/全国地名大全.txt',
+    '组织机构': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/机构名词典.txt',
+    '人物': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/人名词典.txt',
+    '案件身份': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/案件身份.txt',
+    '作案方式': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/作案手段.txt',
+    '行为': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/坦白行为.txt',
+    'Text': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/诉求.txt',
+    'TextResult': '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/实体同义词替换词典/诉求结果.txt',
     'Number': generate_money_number,
     '时间': generate_random_date,
     '量刑': generate_random_penalty
@@ -281,7 +281,7 @@ if __name__ == '__main__':
                        '../data_path/datas/wenshu_types_combined.json')
 
     # baidu额外数据
-    # extra_baidu_eval_path = '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/extra_baidu_eval.json'
-    # extra_baidu_eval_final_path = '/home/ljh/Projects/ee_dl_ie/pst/tripples_extraction/data_path/datas/extra_baidu_eval_final.json'
+    # extra_baidu_eval_path = '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/extra_baidu_eval.json'
+    # extra_baidu_eval_final_path = '/home/ljh/Projects/ee_dl_ie/pst/triples_extraction/data_path/datas/extra_baidu_eval_final.json'
     # extra_baidu_eval = json.load(codecs.open(extra_baidu_eval_path))
     # convert_train_valid_data_v2(extra_baidu_eval, extra_baidu_eval_final_path)

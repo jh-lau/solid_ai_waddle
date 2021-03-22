@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2020/2/26 下午3:42
-  @Project      : tripples_extraction
+  @Project      : triples_extraction
   @FileName     : utils.py
   @Description  : 数据处理公用函数
 """

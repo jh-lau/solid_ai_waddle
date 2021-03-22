@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2020/3/3 下午5:11
-  @Project      : tripples_extraction
+  @Project      : triples_extraction
   @FileName     : predict.py
   @Description  : Placeholder
 """

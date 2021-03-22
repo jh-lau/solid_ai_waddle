@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2020/3/2 下午6:25
-  @Project      : tripples_extraction
+  @Project      : triples_extraction
   @FileName     : service.py
   @Description  : Placeholder
 """
@@ -13,7 +13,7 @@ from .core.predict import spo_predict
 from .core.spert import models
 from .ops.utils import parse_yaml_parameters
 
-CONFIG_ARGS = parse_yaml_parameters('pst/tripples_extraction/parameters.yaml')
+CONFIG_ARGS = parse_yaml_parameters('pst/triples_extraction/parameters.yaml')
 spert_model, tokenizer, device = None, None, None
 
 

@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2020/3/18 下午2:38
-  @Project      : tripples_extraction
+  @Project      : triples_extraction
   @FileName     : data_augmentation.py
   @Description  : 数据增强模块
 """
@@ -48,7 +48,7 @@ class DataAugmentation:
         :return: 同义词列表
         """
         if choice:
-            model = Word2Vec.load('/home/ljh/Projects/ee_dl_ie/tripples_extraction/data_path/data/datasets/corpus/wenshu_word2vec')
+            model = Word2Vec.load('/home/ljh/Projects/ee_dl_ie/triples_extraction/data_path/data/datasets/corpus/wenshu_word2vec')
             try:
                 return [s[0] for s in model.wv.most_similar(word)]
             except KeyError:
