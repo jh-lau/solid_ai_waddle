@@ -4,7 +4,7 @@
 ## 2.Algorithm
 ## 3.Machine Learning
 - basics
-- possibility graph
+- possibility graph model
 - ensemble learning
 - loss function
 - gradient descent
