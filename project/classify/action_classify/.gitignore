@@ -1,0 +1,14 @@
+data/
+__pycache__/
+.idea/
+nohup.*
+*.html
+*.bin
+*.ipynb
+model/
+datas/
+data_path/
+../model.png
+test*.py
+*.png
+build/
