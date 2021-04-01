@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/5/17 下午5:10
+  @Date         : 2018/5/17 下午5:10
   @Project      : KGE
   @FileName     : predict.py
   @Description  : 预测模块

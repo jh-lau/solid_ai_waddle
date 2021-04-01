@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/5/26 下午3:26
+  @Date         : 2018/5/26 下午3:26
   @Project      : action_class_v1
   @FileName     : utils.py
   @Description  : 将视频按需求分帧保存为图像模块

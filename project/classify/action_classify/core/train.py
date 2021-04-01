@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/6/1 下午4:57
+  @Date         : 2018/6/1 下午4:57
   @Project      : action_classify
   @FileName     : train.py
   @Description  : Placeholder
@@ -17,9 +17,9 @@ from keras.optimizers import Adam
 from keras.models import load_model
 from keras.utils import multi_gpu_model
 
-from action_class.layer.model import build_model
-from action_class.ops.data_processor import data_generator_flow
-from action_class.ops.utils import remove_file, get_last_create_file
+from ..layer.model import build_model
+from ..ops.data_processor import data_generator_flow
+from ..ops.utils import remove_file, get_last_create_file
 
 
 def callback_functions(config_dict: DotMap) -> List:

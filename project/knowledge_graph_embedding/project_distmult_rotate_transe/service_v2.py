@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/5/21 下午7:20
+  @Date         : 2018/5/21 下午7:20
   @Project      : KGE
   @FileName     : service_v2.py
   @Description  : 根据图向量直接进行运算的推理

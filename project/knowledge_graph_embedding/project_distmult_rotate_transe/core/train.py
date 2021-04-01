@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/5/15 上午10:52
+  @Date         : 2018/5/15 上午10:52
   @Project      : KGE
   @FileName     : train.py
   @Description  : 训练模型文件

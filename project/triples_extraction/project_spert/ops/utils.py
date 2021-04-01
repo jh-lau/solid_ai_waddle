@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/2/26 下午3:42
+  @Date         : 2018/2/26 下午3:42
   @Project      : triples_extraction
   @FileName     : utils.py
   @Description  : 数据处理公用函数

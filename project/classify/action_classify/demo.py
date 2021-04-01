@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/5/26 下午2:05
+  @Date         : 2018/5/26 下午2:05
   @Project      : action_class_v1
   @FileName     : demo.py
   @Description  : 多进程视频实时识别demo
