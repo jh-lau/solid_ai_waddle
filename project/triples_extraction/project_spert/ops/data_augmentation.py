@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/3/18 下午2:38
+  @Date         : 2018/3/18 下午2:38
   @Project      : triples_extraction
   @FileName     : data_augmentation.py
   @Description  : 数据增强模块

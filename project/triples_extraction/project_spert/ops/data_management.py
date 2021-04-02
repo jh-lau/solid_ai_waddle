@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/3/5 下午2:03
+  @Date         : 2018/3/5 下午2:03
   @Project      : triples_extraction
   @FileName     : data_management.py
   @Description  : 标注数据预处理模块

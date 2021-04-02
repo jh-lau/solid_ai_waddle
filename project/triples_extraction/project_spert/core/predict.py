@@ -1,6 +1,6 @@
 """
   @Author       : liujianhan
-  @Date         : 2020/3/3 下午5:11
+  @Date         : 2018/3/3 下午5:11
   @Project      : triples_extraction
   @FileName     : predict.py
   @Description  : Placeholder
