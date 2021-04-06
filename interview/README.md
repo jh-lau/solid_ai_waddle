@@ -1,6 +1,7 @@
 # Interview FAQ
 
 ## 1.Python
+- [Python Frequent Interview Questions](1_python_faq/README.md)
 ## 2.Algorithm
 ## 3.Machine Learning
 - basics
@@ -22,7 +23,7 @@
 - keyword extraction
 - text classification
 - text similarity
-- transformer
+- [transformer](4_0_nlp_faq/7_transformer/README.md)
 - bert
 - multi-modal
 - pre-training model
