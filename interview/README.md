@@ -4,7 +4,7 @@
 - [Python Frequent Interview Questions](1_python_faq/README.md)
 ## 2.Algorithm
 ## 3.Machine Learning
-- basics
+- [basics](3_machine_learning_faq/1_basics/README.md)
 - possibility graph model
     - [HMM, MEMM and CRF](3_machine_learning_faq/2_possibility_graph/HMM_MEMM_CRF.md)
 - ensemble learning
