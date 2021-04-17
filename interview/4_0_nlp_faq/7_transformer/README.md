@@ -18,7 +18,6 @@
     
 100. holder
 
-
 # Filtered References
 > [1.The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 >
