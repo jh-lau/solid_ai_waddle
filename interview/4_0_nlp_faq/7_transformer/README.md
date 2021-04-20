@@ -15,6 +15,8 @@
     - 多头注意力的个数必须能被嵌入维度整除，比如：(512 / 8)
     - LabelSmoothing
     - Noam Learning Rate Schedule：让学习率线性增长到某个最大的值，然后再按指数的方式衰减
+
+4. self-attention vs attention
     
 100. holder
 

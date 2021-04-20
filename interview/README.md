@@ -12,6 +12,8 @@
 - gradient descent
 - cluster learning
 - optimization trick
+    - [normalization](3_machine_learning_faq/7_optimization_trick/normalization.md)
+    - [dropout](3_machine_learning_faq/7_optimization_trick/dropout.md)
 - decoder algorithm
 - abnormal detection
 - data pre-processing
