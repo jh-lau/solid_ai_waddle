@@ -1,39 +1,37 @@
 # Interview FAQ
 
 ## 1.Python
-- [Python Frequent Interview Questions](1_python_faq/README.md)
+- [python faq](1_python_faq/README.md)
 ## 2.Algorithm
 ## 3.Machine Learning
 - [basics](3_machine_learning_faq/1_basics/README.md)
 - possibility graph model
     - [HMM, MEMM and CRF](3_machine_learning_faq/2_possibility_graph/HMM_MEMM_CRF.md)
 - ensemble learning
-- loss function
-- gradient descent
+- [loss function](3_machine_learning_faq/4_loss_function/README.md)
+- [gradient descent](3_machine_learning_faq/5_gradient-descent/README.md)
 - cluster learning
-- optimization trick
-    - [normalization](3_machine_learning_faq/7_optimization_trick/normalization.md)
-    - [dropout](3_machine_learning_faq/7_optimization_trick/dropout.md)
+- [optimization trick](3_machine_learning_faq/7_optimization_trick/README.md)
 - decoder algorithm
-- abnormal detection
+- [abnormal detection](3_machine_learning_faq/9_abnormal_detection/README.md)
 - data pre-processing
 
 ## 4.NLP
 - NER
-- word embedding
+- [word embedding](4_0_nlp_faq/2_word_embedding/README.md)
 - sentence embedding
 - keyword extraction
 - text classification
 - text similarity
-- [transformer](4_0_nlp_faq/7_transformer/README.md)
-- bert
+- [pre-training model](4_0_nlp_faq/7_pretraining_model/README.md)
+    - [transformer](4_0_nlp_faq/7_pretraining_model/transformer.md)
+    - [bert](4_0_nlp_faq/7_pretraining_model/bert.md)
 - multi-modal
-- pre-training model
 
 ### 4.1.Conversational Bot
 ### 4.2.Graph Neural Network
 ### 4.3.Knowledge Graph
-- [How to build a KG](4_3_knowledge_graph_faq/README.md)
+- [kg faq](4_3_knowledge_graph_faq/README.md)
 ### 4.4.Search and Recommendation
 
 ## 5.Reinforcement Learning

@@ -1,4 +1,5 @@
-
+1. CRF vs HMM
+    - todo
 
 
 
