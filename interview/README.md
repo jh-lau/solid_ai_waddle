@@ -15,6 +15,7 @@
 - decoder algorithm
 - [abnormal detection](3_machine_learning_faq/9_abnormal_detection/README.md)
 - data pre-processing
+- [model compressing](3_machine_learning_faq/11_model_compressing/README.md)
 
 ## 4.NLP
 - NER

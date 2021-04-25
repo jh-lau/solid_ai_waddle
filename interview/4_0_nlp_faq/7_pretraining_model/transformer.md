@@ -44,3 +44,4 @@
 - [2.再回首 DeepLearning 遇见了 Transformer](https://mp.weixin.qq.com/s/a3sbbCYioAPkK471BRBPyw)
     - 配图中错误：注意力计算中，根号`dk`不是表示`head`个数，而是矩阵`K`的维度
 - [超细节的BERT/Transformer知识点](https://zhuanlan.zhihu.com/p/132554155)
+- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
