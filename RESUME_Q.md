@@ -2,12 +2,25 @@
     - 构建流程
     - 数据增强
     - 实体融合与链接怎么做
+        - Mention Variations：同一实体有不同的mention。（<科比>：小飞侠、黑曼巴、科铁、蜗壳、老科。）
+        - Entity Ambiguity：同一mention对应不同的实体。（“苹果”：中关村苹果不错；山西苹果不错。）
+            - 针对上述两个问题，一般会用Candidate Entity Generation (CEG) 和Entity Disambiguation (ED) 两个模块[2]来分别解决：
+            - Candidate Entity Generation：从mention出发，找到KB中所有可能的实体，组成候选实体集 (candidate entities)；
+            - Entity Disambiguation：从candidate entities中，选择最可能的实体作为预测实体
+                - Learning to Rank Methods
+                - Probabilistic Methods
+                - Graph-Based Approaches
     - TransE, RotatE, DisMult原理
     - KGBERT训练过程细节
-    - 改进与调优情况
+        - K-BERT，预训练过程中注入相关的KG三元组，为模型配备领域知识，提高模型在特定领域任务上的性能，同时降低大规模预训练成本。    - 改进与调优情况
+        - https://arxiv.org/pdf/1909.07606.pdf
+        
     - KBQA（基于RASA）
 - Spert模型细节
     - 三元组抽取原理
+    - 优点：将实体的长度作为先验加入到模型训练中，即span宽度的设定
+    - 数据标注偏少，导致模型的指标比看展示的低：即模型预测正确，但是因为标注没有该正例，导致指标偏低
+    - 容易给实体间赋予本来没有的关系
 - python
     - 元编程
     - 设计模式
@@ -16,9 +29,15 @@
         - ocr分割后的多进程切块多线程识别（IO密集型）
         - 文本关键字检测，多线程（多进程也可，就是占CPU）
     - 协程的提出与用途
-        - future引申
-        - 函数级别调用
-        - 异步编程的应用场景
+        - 不使用协程的情况
+            - 回调模式的编码复杂度高：epoll + 回调 + 事件循环
+            - 同步编程的并发性不高
+            - 多线程编程需要线程同步，即用锁
+        - 使用协程的优势
+            - 采用同步的编码方式写异步的代码
+            - 使用单线程去切换任务
+                - 因为线程是系统调用的，单线程切换任务意味着需要手动调度任务
+                - 不需要锁，并发性高，函数级别调性能远高于线程切换
 - Ray分布式框架
     - 用途
     - 原理
