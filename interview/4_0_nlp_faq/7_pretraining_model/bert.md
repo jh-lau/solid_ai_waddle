@@ -5,7 +5,7 @@
     - 前馈层的gelu激活函数和self-attention，self-attention是非线性的(计算score的点积操作)
     
 2. bert的mask为何不学习transformer在attention处进行屏蔽score的技巧
-    - https://www.zhihu.com/question/318355038
+    - BERT 和 Transformer 的目标不是一致的；BERT 是一个语言模型的预训练模型，它考虑到要充分利用文本的上下文信息；Transformer 的任务是 seq2seq，序列第 i 个位置要充分利用到前 i - 1 个元素的信息，而与该位置之后的其他位置的信息无关。
     
 3. 在BERT中，token分3种情况做mask，分别的作用是什么
     - todo
