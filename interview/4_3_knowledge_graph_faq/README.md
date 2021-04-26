@@ -1,4 +1,3 @@
-## FAQ
 1. 图谱构建的一般过程是怎样的，涉及到哪些技术
     - 构建方法包括知识抽取，知识融合，知识更新。其中知识抽取涉及实体识别和关系抽取，知识融合涉及实体对齐和实体链接，知识更新涉及知识补全和知识推理。
     - 除了构建算法以外，同样重要的还有偏工程的基础设施，包括：
@@ -18,4 +17,5 @@
 
 ---
 ### Filtered References
-> [工业界如何用知识图谱搞事情](https://mp.weixin.qq.com/s/A3fllGoU16hOmVH_SJS0MQ)
+1. [工业界如何用知识图谱搞事情](https://mp.weixin.qq.com/s/A3fllGoU16hOmVH_SJS0MQ)
+2. [如何从零构建知识图谱](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247486152&idx=2&sn=f05fbca638ae2e125b364cba422be317&chksm=970c221ea07bab0832d6ea16e40288f4db95fbf5e4b4c64abbc1004f76bd533cffcad8fdc092&mpshare=1&scene=1&srcid=&sharer_sharetime=1584455019779&sharer_shareid=bd09c1d1ca72180d83b4f608f611b310#rd)

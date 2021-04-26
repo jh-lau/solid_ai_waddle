@@ -12,3 +12,7 @@
 - [Spert - Triples extraction](triples_extraction/project_spert/README.md)
 - [CasRel - Triples extraction](triples_extraction/project_casrel/README.md)
     - todo
+    
+## Classification
+- [Posture classification](classify/posture_classify)
+- [Chinese text classification with bert - pytorch version](classify/Chinese_TextClassification_bert)

@@ -1,3 +1,6 @@
+1. SimCSL是如何获取正例对的
+    - **因为BERT内部每次dropout都随机会生成一个不同的dropout mask**。所以SimCSL不需要改变原始BERT，只需要将同一个句子喂给模型两次，得到的两个向量就是应用两次不同dropout mask的结果。然后将两个向量作为正例对。
+    
 1. BERT非线性的来源在哪里
     - 前馈层的gelu激活函数和self-attention，self-attention是非线性的(计算score的点积操作)
     
@@ -21,7 +24,7 @@
     
 8. bert的位置编码是什么
     - todo
-
+    
 ### todo
 - 用法
 - 蒸馏

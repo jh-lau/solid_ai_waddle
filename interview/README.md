@@ -6,15 +6,15 @@
 ## 3.Machine Learning
 - [basics](3_machine_learning_faq/1_basics/README.md)
 - possibility graph model
-    - [HMM, MEMM and CRF](3_machine_learning_faq/2_possibility_graph/HMM_MEMM_CRF.md)
+    - [HMM, MEMM and CRF](3_machine_learning_faq/2_possibility_graph/README.md)
 - ensemble learning
 - [loss function](3_machine_learning_faq/4_loss_function/README.md)
 - [gradient descent](3_machine_learning_faq/5_gradient-descent/README.md)
-- cluster learning
+- [cluster learning](3_machine_learning_faq/6_cluster_learning/README.md)
 - [optimization trick](3_machine_learning_faq/7_optimization_trick/README.md)
 - decoder algorithm
 - [abnormal detection](3_machine_learning_faq/9_abnormal_detection/README.md)
-- data pre-processing
+- [data pre-processing](3_machine_learning_faq/10_data_preprocessing/README.md)
 - [model compressing](3_machine_learning_faq/11_model_compressing/README.md)
 
 ## 4.NLP
