@@ -13,6 +13,7 @@
         - 同时根据被预测词的上下文预测目标词，代表为通过Mask标记进行预训练的Bert模型，缺点：预训练过程中的Mask不会出现在微调阶段的下游任务中从而造成偏差
     - 综合以上两种优势的XLNet：提出Permuted Language Model (PLM)，将GPT的从左向右建模扩展成乱序建模，来弥补GPT无法获取双向上下文信息的缺陷
 
+---
 ### Filtered Reference
 - [NLP预训练模型的全面总结](https://zhuanlan.zhihu.com/p/115014536)
 - [自回归语言模型 VS 自编码语言模型](https://zhuanlan.zhihu.com/p/163455527)
