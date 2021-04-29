@@ -4,7 +4,7 @@
     - 实体融合与链接怎么做
         - Mention Variations：同一实体有不同的mention。（<科比>：小飞侠、黑曼巴、科铁、蜗壳、老科。）
         - Entity Ambiguity：同一mention对应不同的实体。（“苹果”：中关村苹果不错；山西苹果不错。）
-            - 针对上述两个问题，一般会用Candidate Entity Generation (CEG) 和Entity Disambiguation (ED) 两个模块[2]来分别解决：
+            - 针对上述两个问题，一般会用Candidate Entity Generation (CEG) 和Entity Disambiguation (ED) 两个模块来分别解决：
             - Candidate Entity Generation：从mention出发，找到KB中所有可能的实体，组成候选实体集 (candidate entities)；
             - Entity Disambiguation：从candidate entities中，选择最可能的实体作为预测实体
                 - Learning to Rank Methods
@@ -13,7 +13,7 @@
     - TransE, RotatE, DisMult原理
     - KGBERT训练过程细节
         - K-BERT，预训练过程中注入相关的KG三元组，为模型配备领域知识，提高模型在特定领域任务上的性能，同时降低大规模预训练成本。    - 改进与调优情况
-        - https://arxiv.org/pdf/1909.07606.pdf
+        - [1](https://arxiv.org/pdf/1909.07606.pdf)
         
     - KBQA（基于RASA）
 - Spert模型细节
