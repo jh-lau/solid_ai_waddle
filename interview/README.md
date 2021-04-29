@@ -6,7 +6,7 @@
 ## 3.Machine Learning
 - [basics](3_machine_learning_faq/1_basics/README.md)
 - possibility graph model
-    - [HMM, MEMM and CRF](3_machine_learning_faq/2_possibility_graph/README.md)
+    - [HMM, MEMM and CRF](3_machine_learning_faq/2_probabilistic_graphical_model/README.md)
 - ensemble learning
 - [loss function](3_machine_learning_faq/4_loss_function/README.md)
 - [gradient descent](3_machine_learning_faq/5_gradient-descent/README.md)
