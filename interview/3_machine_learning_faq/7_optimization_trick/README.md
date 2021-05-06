@@ -1,3 +1,6 @@
+1. Normalization的作用
+    - 不管是Batch Normalization还是Layer Normalization，Normalization的目的是为了把输入转化成均值为0方差为1的数据。换句话说，这里的Normalization其实应称为Standardization（标准化），而不是Normalization（归一化）。Normalization一般是在把数据送入激活函数之前进行的，目的是**希望输入数据不要落在激活函数的饱和区**。
+
 1. BN层为什么有效，BN对梯度消失与爆炸的作用
     - 计算过程
         - ![bn](pics/batch-norm.png)
@@ -17,9 +20,6 @@
     - LN针对单个样本进行，不依赖于其他数据，因此可以避免BN中受到mini-batch数据分布影响
     - LN不需要保存mini-batch的均值和方差，节省了额外的存储空间
    
-4. BN vs LN
-    - todo
-    
 5. dropout为什么可以防止过拟合
     - todo
 
