@@ -7,7 +7,6 @@
         - RNN可以轻松解决复制输入的任务
         - 实际碰到的序列长度比训练时长，Transformer无法处理
         - RNN图灵完备（近似任意Turing计算机可以解决的算法），Transformer不是
-    
 2. Transformer实践注意事项？
     - 多头注意力的个数必须能被嵌入维度整除，比如：(512 / 8)
     - LabelSmoothing
