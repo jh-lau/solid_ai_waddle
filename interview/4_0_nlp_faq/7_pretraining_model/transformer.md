@@ -45,6 +45,7 @@
 
 10.Encoder端和Decoder端是如何进行交互的？
     - 通过转置encoder_ouput的seq_len维与depth维，进行矩阵两次乘法，即q*kT*v输出即可得到target_len维度的输出
+
 11.Decoder阶段的多头自注意力和encoder的多头自注意力有什么区别？
     - Decoder有两层mha，encoder有一层mha，Decoder的第二层mha是为了转化输入与输出句长，Decoder的请求q与键k和数值v的倒数第二个维度可以不一样，但是encoder的qkv维度一样
 
