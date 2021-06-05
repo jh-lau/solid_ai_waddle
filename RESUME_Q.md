@@ -11,7 +11,7 @@
                 - Probabilistic Methods
                 - Graph-Based Approaches
     - TransE, RotatE, DisMult原理
-    - KGBERT训练过程细节
+    - KGBERT训练过程细节 
         - K-BERT，预训练过程中注入相关的KG三元组，为模型配备领域知识，提高模型在特定领域任务上的性能，同时降低大规模预训练成本。    - 改进与调优情况
         - [1](https://arxiv.org/pdf/1909.07606.pdf)
         
