@@ -7,4 +7,4 @@
     - 使用了数据增强，并利用了对比学习去优化增强的数据。相对应的，模型针对Clustering有一个损失函数对源数据进行优化，Instance-CL有一个损失函数对增强数据进行优化
     - ![1](pics/1.png)
     
-- [Supporting Clustering with Contrastive Learning](https://arxiv.org/pdf/2103.12953.pdf)
+- [Supporting Clustering with Contrastive Learning](https://arxiv.org/pdf/2103.12953.pdf) 
