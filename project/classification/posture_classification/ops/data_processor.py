@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2018/6/2 上午11:59
-  @Project      : posture_classify
+  @Project      : posture_classification
   @FileName     : data_processor.py
   @Description  : Placeholder
 """

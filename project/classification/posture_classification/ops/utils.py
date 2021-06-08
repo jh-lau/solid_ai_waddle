@@ -254,8 +254,8 @@ if __name__ == '__main__':
     #     save_path = f'{image_save_path}_{i}'
     #     video2frames(file_path, save_path)
     #
-    # image_save_path = '/home/ljh/Projects/posture_classify/action_class/data_path/raw_video/20200529/positive/test'
-    # positive_path = '/home/ljh/Projects/posture_classify/action_class/data_path/raw_video/20200529/positive'
+    # image_save_path = '/home/ljh/Projects/posture_classification/action_class/data_path/raw_video/20200529/positive/test'
+    # positive_path = '/home/ljh/Projects/posture_classification/action_class/data_path/raw_video/20200529/positive'
     # for i, file in enumerate(os.listdir(positive_path)):
     #     file_path = os.path.join(positive_path, file)
     #     save_path = f'{image_save_path}_{i}_tested'

@@ -1,7 +1,7 @@
 """
   @Author       : liujianhan
   @Date         : 2018/5/26 上午10:12
-  @Project      : posture_classify
+  @Project      : posture_classification
   @FileName     : service.py
   @Description  : service服务接口模块
 """

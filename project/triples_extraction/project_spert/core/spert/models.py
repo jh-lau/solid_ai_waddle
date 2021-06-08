@@ -67,11 +67,11 @@ class SpERT(BertPreTrainedModel):
         entity_masks = entity_masks.float()
         batch_size = encodings.shape[0]
 
-        # classify entities
+        # classification entities
         size_embeddings = self.size_embeddings(entity_sizes)  # embed entity candidate sizes
         entity_clf, entity_spans_pool = self._classify_entities(encodings, h, entity_masks, size_embeddings)
 
-        # classify relations
+        # classification relations
         rel_masks = rel_masks.float().unsqueeze(-1)
         h_large = h.unsqueeze(1).repeat(1, max(min(relations.shape[1], self._max_pairs), 1), 1, 1)
         rel_clf = torch.zeros([batch_size, relations.shape[1], self._relation_types]).to(
@@ -80,7 +80,7 @@ class SpERT(BertPreTrainedModel):
         # obtain relation logits
         # chunk processing to reduce memory usage
         for i in range(0, relations.shape[1], self._max_pairs):
-            # classify relation candidates
+            # classification relation candidates
             chunk_rel_logits = self._classify_relations(entity_spans_pool, size_embeddings,
                                                         relations, rel_masks, h_large, i)
             rel_clf[:, i:i + self._max_pairs, :] = chunk_rel_logits
@@ -97,7 +97,7 @@ class SpERT(BertPreTrainedModel):
         batch_size = encodings.shape[0]
         ctx_size = context_masks.shape[-1]
 
-        # classify entities
+        # classification entities
         size_embeddings = self.size_embeddings(entity_sizes)  # embed entity candidate sizes
         entity_clf, entity_spans_pool = self._classify_entities(encodings, h, entity_masks, size_embeddings)
 
@@ -113,7 +113,7 @@ class SpERT(BertPreTrainedModel):
         # obtain relation logits
         # chunk processing to reduce memory usage
         for i in range(0, relations.shape[1], self._max_pairs):
-            # classify relation candidates
+            # classification relation candidates
             chunk_rel_logits = self._classify_relations(entity_spans_pool, size_embeddings,
                                                         relations, rel_masks, h_large, i)
             # apply sigmoid
@@ -146,7 +146,7 @@ class SpERT(BertPreTrainedModel):
                                  entity_spans_pool, size_embeddings], dim=2)
         entity_repr = self.dropout(entity_repr)
 
-        # classify entity candidates
+        # classification entity candidates
         entity_clf = self.entity_classifier(entity_repr)
 
         return entity_clf, entity_spans_pool
@@ -177,7 +177,7 @@ class SpERT(BertPreTrainedModel):
         rel_repr = torch.cat([rel_ctx, entity_pairs, size_pair_embeddings], dim=2)
         rel_repr = self.dropout(rel_repr)
 
-        # classify relation candidates
+        # classification relation candidates
         chunk_rel_logits = self.rel_classifier(rel_repr)
         return chunk_rel_logits
 
