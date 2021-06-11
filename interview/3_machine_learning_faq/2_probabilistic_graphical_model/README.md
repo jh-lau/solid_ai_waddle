@@ -9,7 +9,6 @@
     - 模型训练完成后，推断过程用到维特比进行解码
 
 
-
 ### References
 1. [概率图模型体系：HMM、MEMM、CRF](https://zhuanlan.zhihu.com/p/33397147)
 2. [CRF-Layer-on-the-Top-of-BiLSTM](https://createmomo.github.io/2017/11/11/CRF-Layer-on-the-Top-of-BiLSTM-5/)
