@@ -65,7 +65,6 @@
     - BERT和transformer的目标不一致，bert是语言的预训练模型，需要充分考虑上下文的关系，而transformer主要考虑句子中第i个元素与前i-1个元素的关系
         
 8. Transformer的Encoder端和Decoder端是如何进行交互的？和一般的seq2seq有什么差别
-    - todo
     
 9. 不考虑多头的原因，self-attention中词向量不乘QKV参数矩阵，会有什么问题
 
