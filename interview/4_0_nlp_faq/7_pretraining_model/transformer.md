@@ -69,7 +69,6 @@
 9. 不考虑多头的原因，self-attention中词向量不乘QKV参数矩阵，会有什么问题
 
 6. 关于 mask 机制，在 Transformer 中有 attention、encoder 和 decoder 中不同的应用区别是什么
-    - todo
     
 2. Transformer的复杂度，如何降低复杂度
     - todo
