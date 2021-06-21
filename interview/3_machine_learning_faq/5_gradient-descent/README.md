@@ -14,6 +14,5 @@
         - LSTM网络
     
     
-    
 ### Filtered Reference
 1. [也来谈谈RNN的梯度消失/爆炸问题](https://kexue.fm/archives/7888?sharesource=weibo)
