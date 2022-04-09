@@ -1,5 +1,7 @@
 test*.py
 .idea
+project/event_extraction/project_event_extraction_military
+project/gnn/project_pgl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
